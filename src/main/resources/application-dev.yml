@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/analise-dinheiro
+    username: tortora
+    password: "@ad2304"
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: create

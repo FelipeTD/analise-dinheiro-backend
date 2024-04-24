@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  analise-dinheiro-postgres:
+    container_name: analise-dinheiro-postgres
+    image: postgres
+    environment:
+      POSTGRES_USER: tortora
+      POSTGRES_PASSWORD: "@ad2304"
+      POSTGRES_DB: analise-dinheiro
+    ports:
+      - "5432:5432"
